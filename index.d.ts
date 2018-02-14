@@ -82,7 +82,7 @@ interface ThemeType {
 }
 
 declare module 'vue/types/vue' {
-	namespace Vue {
+	namespace VueMaterial {
 		const material: {
 			registerTheme(name: string | { [key: string]: ThemeType }, spec?: ThemeType): void,
 			setCurrentTheme(name: string): void
